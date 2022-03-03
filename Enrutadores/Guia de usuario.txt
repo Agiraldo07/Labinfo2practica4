@@ -1,0 +1,20 @@
+Guia de Usuario Practica 4
+
+El programa realizado inicialmente carga el archivo con los routers conectados.
+El archivo tiene por nombre red.txt y se almacena en la misma carpeta del main.cpp,
+en caso de que se desee modificarlo hay que cambiar la direccion de la variable global.
+
+
+- El formato del archivo es el siguiente:
+nombre_router;conexion_1:valor_enlace,conexion_2:valor_enlace,...,conexion_n:valor_enlace,
+
+es importante finalizar con ","
+
+- Cada renglon representa un router y sus conexiones.
+- Las conexiones deben ser reciprocas, es decir, si el router A se conecta con B, el B se debe 
+conectar con A con el mismo valor de enlace.
+
+Se dejara el archivo con algunos routers como ejemplo.
+
+Tambien se puede ir modificando la red agregando routers y enlaces pero el archivo 
+no se podra cargar posteriormente.
